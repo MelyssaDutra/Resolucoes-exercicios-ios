@@ -1,0 +1,19 @@
+{
+  "name": "contatos-api",
+  "version": "1.0.0",
+  "description": "API REST para gerenciamento de contatos",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["api", "contatos", "crud", "express"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
